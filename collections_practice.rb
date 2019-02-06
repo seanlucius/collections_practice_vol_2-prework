@@ -19,5 +19,5 @@ def count_elements(collection)
 end 
 
 def merge_data(keys, data)
-  keys.merge
+  keys.merge(data)
 end 
