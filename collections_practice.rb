@@ -13,3 +13,7 @@ end
 def remove_non_strings(collection)
   collection.find_all{ |item| item.is_a?(String) }
 end 
+
+def count_elements
+  
+end 
