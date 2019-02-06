@@ -3,5 +3,5 @@ def begins_with_r(collection)
 end
 
 def contain_a(collection)
-  
+  collection.select{ |item| 
 end 
