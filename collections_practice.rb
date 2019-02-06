@@ -5,3 +5,7 @@ end
 def contain_a(collection)
   collection.select{ |item| item.include?('a') }
 end 
+
+def first_wa(collection)
+  collection.
+end 
