@@ -18,6 +18,6 @@ def count_elements(collection)
   collection.each_with_object(Hash.new(0)) { |item, counts| counts[item] += 1 }.map { |k, v| k.merge(count: v) }
 end 
 
-def merge_data
+def merge_data(keys, data)
   
 end 
