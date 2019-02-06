@@ -15,5 +15,5 @@ def remove_non_strings(collection)
 end 
 
 def count_elements(collection)
-  collection.each_with_object(Hash.new(0)) { |item, counts| counts[item] += 1 }.map { |k, v| k.merge()
+  collection.each_with_object(Hash.new(0)) { |item, counts| counts[item] += 1 }.map { |k, v| k.merge(count: v) }
 end 
