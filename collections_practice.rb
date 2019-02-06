@@ -11,5 +11,5 @@ def first_wa(collection)
 end 
 
 def remove_non_strings(collection)
-  collection.find_all{ |item| item.type
+  collection.find_all{ |item| item.is_a
 end 
