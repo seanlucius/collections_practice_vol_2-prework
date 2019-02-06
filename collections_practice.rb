@@ -10,3 +10,6 @@ def first_wa(collection)
   collection.find{ |item| (item.to_s).start_with?('wa') }
 end 
 
+def remove_non_strings(collection)
+  
+end 
