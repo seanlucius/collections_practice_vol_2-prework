@@ -15,5 +15,5 @@ def remove_non_strings(collection)
 end 
 
 def count_elements(collection)
-  
+  collection 
 end 
