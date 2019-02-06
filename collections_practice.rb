@@ -7,5 +7,5 @@ def contain_a(collection)
 end 
 
 def first_wa(collection)
-  collection.find{ |item| item.start_with?('wa') }
+  collection.find{ |item| (item.to_s).start_with?('wa') }
 end 
