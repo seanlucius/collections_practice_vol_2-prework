@@ -33,5 +33,4 @@ def organize_schools(collection)
       org_hash[v] = [] << school
     end 
   end 
-  org_hash
 end 
