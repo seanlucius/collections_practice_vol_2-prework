@@ -27,5 +27,5 @@ def find_cool(collection)
 end 
 
 def organize_schools(collection)
-  
+  org_hash = Hash.new(0)
 end 
