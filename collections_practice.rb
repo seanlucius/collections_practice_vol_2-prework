@@ -19,5 +19,5 @@ def count_elements(collection)
 end 
 
 def merge_data(c1, c2)
-  c2[0].values.map.with_index{ |
+  c2[0].values.map.with_index{ |v, i| 
 end 
