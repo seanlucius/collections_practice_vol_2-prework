@@ -27,10 +27,11 @@ def find_cool(collection)
 end 
 
 def organize_schools(collection)
-  org_hash = Hash.new(0)
+  org_hash = {}
   collection.each do |school, value_hash|
     value_hash.each do |k, v|
       org_hash[v] = [] << school
     end 
   end 
+  org_hash
 end 
