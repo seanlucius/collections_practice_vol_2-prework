@@ -28,4 +28,5 @@ end
 
 def organize_schools(collection)
   org_hash = Hash.new(0)
+  collection.each do |schools
 end 
