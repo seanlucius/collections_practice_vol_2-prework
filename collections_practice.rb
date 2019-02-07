@@ -25,3 +25,7 @@ end
 def find_cool(collection)
   collection.select { |single_hash| (single_hash.values).include?('cool') }
 end 
+
+def organize_schools(collection)
+  
+end 
