@@ -22,6 +22,6 @@ def merge_data(c1, c2)
   c2[0].values.map.with_index{ |v, i| c1[i].merge(v) }
 end 
 
-def find_cool
+def find_cool(collection)
   
 end 
