@@ -23,7 +23,7 @@ def merge_data(c1, c2)
 end 
 
 def find_cool(collection)
-  collection.each do |single_hash|
+  collection.select {|single_hash|
     
   end 
 end 
